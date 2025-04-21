@@ -1,7 +1,7 @@
 # Smart-chat-bot
 # Chat Assistant
 
-A real-time chat application built with React, Express, and WebSocket that lets you interact with an AI assistant. Features include:
+A real-time demo chat application built with React, Express, and WebSocket that lets you interact with an AI assistant. Features include:
 
 - Real-time messaging with AI
 - Message search functionality
@@ -22,3 +22,9 @@ A real-time chat application built with React, Express, and WebSocket that lets 
 - Backend: Express + WebSocket
 - Database: SQLite with Drizzle ORM
 - AI: OpenRouter API integration
+
+## Additional Notes
+
+- The ChatBot currently can not recall previous prompts and give an answer based off of those, demonstrated in the video.
+- There's an a slightly issue with the outputs giving '0' at the end of the message, which is due to the message ID label.
+- It uses DeepSeek: DeepSeek V3 0324 for it's AI.
